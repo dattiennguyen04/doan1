@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+:root {
+    --while-color: #fff;
+    --black-color: #000;
+    --product-color-text: #bda87f;
+    --product-price: #f4304c;
+
+
+}
+
+.diamond-btn {
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    border: 2px solid #fff;
+    margin: auto;
+
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-third {
+    width: calc(100% / 3);
+    margin-top: 20px;
+}
+
+.col-four {
+    width: calc(100% / 4);
+}
+
+.col-one-third {
+    width: 33.333%;
+}
+
+.col-two-third {
+    width: 66.666%;
+}
+
+.col-third-four {
+    width: 75%;
+}
+
+.col-one-four {
+    width: 25%;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
